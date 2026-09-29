@@ -1,3 +1,5 @@
+package Excepciones;
+
 public interface Traductor {
     //ppor default si no definimos son public y abstract
     void traducir();
@@ -5,7 +7,7 @@ public interface Traductor {
 
     //metodos con implementacion por default
     default void iniciarTraductor(){
-        System.out.println("Iniciando Traductor...");
+        System.out.println("Iniciando Excepciones.Traductor...");
     }
 }
 class Ingles implements Traductor{
@@ -17,11 +19,11 @@ class Ingles implements Traductor{
 }
 class Frances implements Traductor{
 public void traducir(){
-    System.out.println("Traduzco a Frances");
+    System.out.println("Traduzco a Excepciones.Frances");
 }
 @Override
     public void iniciarTraductor(){
-    System.out.println("Iniciando Traductor en frances");
+    System.out.println("Iniciando Excepciones.Traductor en frances");
 }
 }
 

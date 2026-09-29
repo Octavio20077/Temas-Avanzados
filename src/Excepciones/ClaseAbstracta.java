@@ -1,6 +1,8 @@
+package Excepciones;
+
 public class ClaseAbstracta {
     public static void main(String[] args) {
-       //FiguraGeometrica figuraGeometrica = new FiguraGeometrica(); //error, no se puede instanciar
+       //Excepciones.Excepciones.FiguraGeometrica figuraGeometrica = new Excepciones.Excepciones.FiguraGeometrica(); //error, no se puede instanciar
 FiguraGeometrica figuraGeometrica = new rectangulo();
 figuraGeometrica.dibujar();
 figuraGeometrica = new Circulo();

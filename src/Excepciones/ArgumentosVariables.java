@@ -1,3 +1,5 @@
+package Excepciones;
+
 public class ArgumentosVariables {
     public static void main(String[] args) {
        // imprimirNumeros(1, 2, 3, 4, 5);
