@@ -9,9 +9,12 @@ public class Listas {
         milista.add("Miercoles");
         milista.add("Jueves");
         milista.add("Viernes");
-        for (String elemento: milista) {
-            System.out.println("Dia de la semana: " + elemento);
-        }
+        //for (String elemento: milista) {
+          //  System.out.println("Dia de la semana: " + elemento);
+
+        milista.forEach(elemento -> {
+            System.out.println("elemento = " + elemento);
+        });
 
     }
 }
